@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="Brighter Logistics" />
+<meta name="description" content="Official website for <!-- Teamname -->" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/master.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 80) {
+    $('.headsection_top').fadeOut();
+  } else {
+    $('.headsection_top').fadeIn();
+  }
+});
+
+
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 500){
+        $('.headsection').addClass('fixed');
+    }else{
+        if($('.headsection').hasClass('fixed')){
+            $('.headsection').removeClass('fixed');
+        }
+    }
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 10){
+        $('.scroll_dark').addClass('scroll_to_top');
+    }else{
+        if($('.scroll_dark').hasClass('scroll_to_top')){
+            $('.scroll_dark').removeClass('scroll_to_top');
+        }
+    }
+});
+
+$(document).ready(function() {
+
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 2500);
+    setTimeout(function(){
+        $('body').addClass('loaded-none');
+    }, 3200);
+
+});
+
+
+</script>
+</head>
+<body>
+  <!--- Mobile Head Section ------------------------------------------->
+  <div class="mobile_headsection">
+    <div class="header_line"></div>
+    <div class="mobilesection">
+    <div class="tophead">
+      <a href="https://sureshot.salesdrip.com/"><div class="logo-m">
+        <img src="https://app.salesdrip.com/users/myteam46201/Media23.png" alt="">
+      </div></a>
+      <a href="javascript:showhide('uniquename')">
+    	<button class="show-button" onclick="showButton(bottomhead)">
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        <div class="show_line"></div>
+        </button></a>
+      </div>
+    </div>
+    <div class="bottomhead" id="uniquename" style="display:none;">
+      <div class="control_panel">
+          <div id="controlPanel">
+            <label for="show-menu" class="show-menu">&equiv;</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <ul id="Page1Link">
+
+            </ul>
+            <!-- CSS Control Panel -->
+
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </div>
+        </div>
+    </div>
+  <!--- Top of Page Head Section ------------------------------------------->
+  <div class="headsection_top" style="position: fixed;">
+    <div class="uppersection">
+      <div class="width-stock">
+        <div class="head_contact">
+          <p style="width: 100%; display: flex; justify-content: flex-end;"><span style="margin-right: 1rem;">330-975-4222</span>
+            <span style="margin-right: 3rem;">Fax: 330-975-4267</span> <span>ship@revolutiontrucking.com</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="lowersection">
+      <div class="width-stock " style="display:flex;">
+    <div class="lefthead">
+      <a href=""><div class="logo">
+        <img src="https://user-images.githubusercontent.com/47538587/71199174-3cba7b80-224a-11ea-8c68-8eae57b17500.png" alt="none">
+      </div></a>
+    </div>
+    <div class="righthead">
+      <div class="control_panel">
+          <div id="controlPanel">
+            <label for="show-menu" class="show-menu">&equiv;</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <ul id="Page1Link">
+
+            </ul>
+          <a href="http://revolution.salesdrip.com/">  <div class="home_icon">
+              <img id="icon_home_white" src="https://app.salesdrip.com/users/myteam46301/Media43.png" alt="">
+              <img src="https://app.salesdrip.com/users/myteam46301/Media46.png" alt="">
+            </div></a>
+
+            <!-- CSS Control Panel -->
+
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+        <div class="login">
+          <a href="#"><p>Login</p></a>
+        </div>
+      </div>
+        </div>
+        </div>
+    </div>
+
+
+
+  <!------------------------------------- Body Section ------------------------------------------->
+
+  <!--[if lt IE 7]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+
+  	<!-- Demo content -->
+  	<div id="demo-content">
+
+  		<div id="loader-wrapper">
+        <div class="loader_logo">
+
+        </div>
+  			<div id="loader">
+        </div>
+  		</div>
+
+  	</div>
+  	<!-- /Demo content -->
+
+
+  <div class="main">
+
+  </div>
+
+  <!------------------------------------- Footer Section ------------------------------------------->
+  <div class="scroll_dark" onclick="window.scrollTo(0, 0);">
+    <img src="https://user-images.githubusercontent.com/47538587/71300201-8b017480-2347-11ea-863d-c5552921da1f.png" alt="">
+  </div>
+
+<footer>
+
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({duration: 800});
+ </script>
+ <script type="text/javascript">
+   window.scrollTo(0, 0);
+ </script>
+
+ <script>
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+ </script>
+
+   	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+   	<script src="js/main.js"></script>
+    <!-- SlideShow Script------------------------------------------------------------------------>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+
+        setTimeout(showSlides, 10000); // Change image every 2 seconds
+      }
+</script>
+<!-- End Slideshow script---------------------------------------------------------------------->
+
+
+</body>
+</html>
